@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+	padding: 0;
+	  overflow-y:hidden; 
+}
+
+#sides{
+   	margin: 0;
+	width: 100%;
+}
+
+.left{
+	padding: 5;
+	margin: 0;
+	width:20%;
+	/* background-color: #F0F0F1 ; */
+	float:left;
+}
+
+.right{
+    margin: 5;
+	width:80%;		
+	background-color: white ;
+	float:right;
+  
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.axisHide path,
+.axisHide line {
+    fill: none;
+    stroke: white;
+    shape-rendering: crispEdges;
+}
+
+.axisHide text {
+    font-family: sans-serif;
+    font-size: 11px;
+	fill:white;
+}
+	  
+

@@ -1,0 +1,21 @@
+
+.recommendation{
+	background-color: #F0F0F1;
+	padding: 10px;
+	width: 90%;
+	margin: 5px auto 5px auto;
+}
+
+.hidden{
+	display: none;
+}
+
+.recommendation a{
+	    font-size: 1.3em;
+}
+.recommendation #accept{
+	    color: green;
+}
+.recommendation #reject{
+	    color: red;
+}
