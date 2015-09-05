@@ -28,7 +28,7 @@
 	var circle_lastchanges=[{x: 0, y:0, r:0, color:0, id:0}];
 	initialize_Data();
     SvgCreator();
-	initialize_circle();
+	//initialize_circle();
 
 	
 	function initialize_Data() // receive the car dataset from server
@@ -36,7 +36,7 @@
 	    
 	    data= runPyScript(" ",0);
 		data = JSON.parse(data);
-		//console.log(data);
+		console.log(data);
 	}
 	
 	function SvgCreator(){ // create a svg that would be contianer of our visualization
@@ -77,6 +77,8 @@
 			.on("dragend",function(d,i){
 			    console.log( pca_x_coordination)
 				console.log( pca_y_coordination)
+	
+
 			 // transformed_data = JSON.stringify( transformed_data);
 			 //  pca_axis_ranking = runPyScript(transformed_data,2);
 			 //  console.log(pca_axis_ranking);
